@@ -1,6 +1,6 @@
-var scores;
-QUnit.module('scoreTransformer', { 
-  beforeEach: function() {
+var scores;//declares a variable called scores
+QUnit.module('scoreTransformer', {//creates Qunit tests under the module named scoreTransformer 
+  beforeEach: function() {//property with a key called beforeEach with the value of a function
     scores = [
       ['pie', 5],
       ['beak', 10],
